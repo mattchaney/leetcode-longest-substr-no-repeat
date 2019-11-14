@@ -1,0 +1,35 @@
+dvdf
+l
+r
+
+maxlen 0
+seen
+ch d
+
+if d not in seen:
+    add d to seen
+    increment right
+
+dvdf
+l
+ r
+
+maxlen 0
+seen d
+ch v
+
+if v not in seen:
+    add v to seen
+    increment right
+
+dvdf
+ l
+  r
+
+maxlen 0
+seen dv
+ch d
+
+d in seen:
+    set left to index of ch + 1
+    set seen to s[left:right]
